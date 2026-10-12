@@ -285,6 +285,53 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:400px;
 }
 
+/* Workshop program */
+
+#bloc-PROGRAM{
+	scroll-margin-top:100px;
+}
+.program-schedule{
+	font-family:"Source Sans Pro",sans-serif;
+	font-size:18px;
+	border:1px solid #dee2e6;
+}
+.program-schedule caption{
+	caption-side:top;
+	text-align:center;
+	color:#424242;
+	padding-top:0;
+	padding-bottom:20px;
+}
+.program-schedule th,.program-schedule td{
+	padding:14px 20px;
+	vertical-align:top;
+}
+.program-schedule th[scope="row"]{
+	width:180px;
+	white-space:nowrap;
+	font-weight:400;
+}
+.program-schedule .program-session{
+	background-color:#CEE4F5;
+}
+.program-schedule .program-break{
+	background-color:#f2f2f2;
+}
+#bloc-SPONSOR p a{
+	text-decoration:underline;
+}
+@media (max-width:575px){
+	.program-schedule{
+		font-size:16px;
+	}
+	.program-schedule th,.program-schedule td{
+		padding:12px 10px;
+	}
+	.program-schedule th[scope="row"]{
+		width:120px;
+	}
+}
+
 /* = Colour
 -------------------------------------------------------------- */
 
@@ -468,4 +515,3 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	
 }
-
