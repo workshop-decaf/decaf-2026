@@ -317,6 +317,31 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .program-schedule .program-break{
 	background-color:#f2f2f2;
 }
+.program-talks{
+	margin:16px 0 0;
+	padding-left:24px;
+}
+.program-talks li + li{
+	margin-top:18px;
+}
+.program-talk-title{
+	display:block;
+}
+.program-schedule a.program-slides{
+	display:inline-block;
+	margin-top:4px;
+	font-family:inherit;
+	font-size:0.9em;
+	text-decoration:underline;
+	text-underline-offset:3px;
+}
+.program-schedule a.program-slides:hover{
+	text-decoration-thickness:2px;
+}
+.program-schedule a.program-slides:focus-visible{
+	outline:2px solid #424242!important;
+	outline-offset:3px;
+}
 #bloc-SPONSOR p a{
 	text-decoration:underline;
 }
