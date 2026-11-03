@@ -285,6 +285,31 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:400px;
 }
 
+/* Workshop news */
+
+.workshop-news{
+	scroll-margin-top:100px;
+	font-family:"Source Sans Pro",sans-serif;
+}
+.workshop-news h3,.workshop-news p{
+	font-family:inherit;
+}
+.news-awards{
+	padding-left:22px;
+}
+.news-awards li + li{
+	margin-top:16px;
+}
+.workshop-news a{
+	font-family:inherit;
+	text-decoration:underline;
+	text-underline-offset:3px;
+}
+.workshop-news a:focus-visible{
+	outline:2px solid #424242!important;
+	outline-offset:3px;
+}
+
 /* Workshop program */
 
 #bloc-PROGRAM{
